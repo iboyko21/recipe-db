@@ -7,6 +7,10 @@
   "elementId" : "row_1",
   "elementLabel" : "Row 1",
   "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
@@ -18,10 +22,6 @@
     "includeAriaHeading" : {
       "type" : "JSON_LITERAL",
       "value" : false
-    },
-    "ariaRegionHeadingLevel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "1"
     },
     "type" : {
       "type" : "JSON_LITERAL",
@@ -43,6 +43,10 @@
       "elementId" : "container_1",
       "elementLabel" : "Container 1",
       "propertyValues" : {
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
         "ariaRegionName" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -54,10 +58,6 @@
         "includeAriaHeading" : {
           "type" : "JSON_LITERAL",
           "value" : false
-        },
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
         },
         "type" : {
           "type" : "JSON_LITERAL",
@@ -79,6 +79,10 @@
           "elementId" : "stylized_text_1",
           "elementLabel" : "Stylized text 1",
           "propertyValues" : {
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* {color:white}"
+            },
             "text" : {
               "type" : "DATA_OUTPUT_BINDING",
               "binding" : {
@@ -88,10 +92,6 @@
             "tag" : {
               "type" : "JSON_LITERAL",
               "value" : "h1"
-            },
-            "css" : {
-              "type" : "JSON_LITERAL",
-              "value" : "* {color:white}"
             }
           },
           "eventMappings" : [ ],
@@ -106,7 +106,9 @@
             "value" : null
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
+          "items" : [ ],
           "styles" : {
             "margin" : "var(--now-static-space--lg)",
             "margin-right" : "5rem",
@@ -116,21 +118,13 @@
           "elementId" : "button_1",
           "elementLabel" : "Button 1",
           "propertyValues" : {
-            "variant" : {
-              "type" : "JSON_LITERAL",
-              "value" : "secondary"
-            },
             "size" : {
               "type" : "JSON_LITERAL",
               "value" : "md"
             },
-            "label" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "Go to Recipe",
-                "comment" : ""
-              }
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "secondary"
             },
             "icon" : {
               "type" : "JSON_LITERAL",
@@ -139,6 +133,14 @@
             "disabled" : {
               "type" : "JSON_LITERAL",
               "value" : false
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Go to Recipe",
+                "comment" : ""
+              }
             },
             "tooltipContent" : {
               "type" : "TRANSLATION_LITERAL",
@@ -249,7 +251,9 @@
             }
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
+          "items" : [ ],
           "styles" : {
             "padding" : "var(--now-static-space--lg)",
             "padding-left" : "5rem"
@@ -258,31 +262,23 @@
           "elementId" : "button_iconic_1",
           "elementLabel" : "Button iconic 1",
           "propertyValues" : {
-            "icon" : {
+            "size" : {
               "type" : "JSON_LITERAL",
-              "value" : "heart-outline"
+              "value" : "md"
+            },
+            "highContrast" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
             },
             "variant" : {
               "type" : "JSON_LITERAL",
               "value" : "secondary"
             },
-            "size" : {
+            "icon" : {
               "type" : "JSON_LITERAL",
-              "value" : "md"
-            },
-            "bare" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
+              "value" : "heart-outline"
             },
             "disabled" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "hidePadding" : {
-              "type" : "JSON_LITERAL",
-              "value" : "false"
-            },
-            "highContrast" : {
               "type" : "JSON_LITERAL",
               "value" : false
             },
@@ -293,6 +289,10 @@
                 "message" : "Mark as favorite",
                 "comment" : ""
               }
+            },
+            "bare" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
             },
             "configAria" : {
               "type" : "MAP_CONTAINER",
@@ -306,6 +306,10 @@
                   }
                 }
               }
+            },
+            "hidePadding" : {
+              "type" : "JSON_LITERAL",
+              "value" : "false"
             }
           },
           "eventMappings" : [ {
@@ -413,37 +417,31 @@
             }
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
+          "items" : [ ],
           "styles" : { }
         }, {
           "elementId" : "button_iconic_2",
           "elementLabel" : "Button iconic 2",
           "propertyValues" : {
-            "icon" : {
+            "size" : {
               "type" : "JSON_LITERAL",
-              "value" : "heart-fill"
+              "value" : "md"
+            },
+            "highContrast" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
             },
             "variant" : {
               "type" : "JSON_LITERAL",
               "value" : "secondary"
             },
-            "size" : {
+            "icon" : {
               "type" : "JSON_LITERAL",
-              "value" : "lg"
-            },
-            "bare" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
+              "value" : "heart-fill"
             },
             "disabled" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "hidePadding" : {
-              "type" : "JSON_LITERAL",
-              "value" : "false"
-            },
-            "highContrast" : {
               "type" : "JSON_LITERAL",
               "value" : false
             },
@@ -454,6 +452,10 @@
                 "message" : "Unmark as favorite",
                 "comment" : ""
               }
+            },
+            "bare" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
             },
             "configAria" : {
               "type" : "MAP_CONTAINER",
@@ -467,6 +469,10 @@
                   }
                 }
               }
+            },
+            "hidePadding" : {
+              "type" : "JSON_LITERAL",
+              "value" : "false"
             }
           },
           "eventMappings" : [ {
@@ -580,27 +586,21 @@
             }
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
+          "items" : [ ],
           "styles" : { }
         }, {
           "elementId" : "button_2",
           "elementLabel" : "Button 2",
           "propertyValues" : {
-            "variant" : {
-              "type" : "JSON_LITERAL",
-              "value" : "secondary"
-            },
             "size" : {
               "type" : "JSON_LITERAL",
               "value" : "md"
             },
-            "label" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "",
-                "comment" : ""
-              }
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "secondary"
             },
             "icon" : {
               "type" : "JSON_LITERAL",
@@ -609,6 +609,14 @@
             "disabled" : {
               "type" : "JSON_LITERAL",
               "value" : false
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
             },
             "tooltipContent" : {
               "type" : "TRANSLATION_LITERAL",
@@ -674,7 +682,9 @@
             "value" : null
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
+          "items" : [ ],
           "styles" : {
             "margin" : "var(--now-static-space--md)"
           }
@@ -698,7 +708,9 @@
         "value" : null
       },
       "isHero" : false,
+      "extensionPoints" : [ ],
       "isNonDestructive" : false,
+      "items" : [ ],
       "styles" : {
         "width" : "100%",
         "max-width" : ""
@@ -723,7 +735,9 @@
     "value" : null
   },
   "isHero" : false,
+  "extensionPoints" : [ ],
   "isNonDestructive" : false,
+  "items" : [ ],
   "styles" : {
     "width" : "100%",
     "background" : "rgb(var(--now-color--primary-1))"
@@ -732,6 +746,10 @@
   "elementId" : "row_2",
   "elementLabel" : "Row 2",
   "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
@@ -743,10 +761,6 @@
     "includeAriaHeading" : {
       "type" : "JSON_LITERAL",
       "value" : false
-    },
-    "ariaRegionHeadingLevel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "1"
     },
     "type" : {
       "type" : "JSON_LITERAL",
@@ -768,6 +782,10 @@
       "elementId" : "container_2",
       "elementLabel" : "Container 2",
       "propertyValues" : {
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
         "ariaRegionName" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -779,10 +797,6 @@
         "includeAriaHeading" : {
           "type" : "JSON_LITERAL",
           "value" : false
-        },
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
         },
         "type" : {
           "type" : "JSON_LITERAL",
@@ -804,6 +818,10 @@
           "elementId" : "container_3",
           "elementLabel" : "Container 3",
           "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
@@ -815,10 +833,6 @@
             "includeAriaHeading" : {
               "type" : "JSON_LITERAL",
               "value" : false
-            },
-            "ariaRegionHeadingLevel" : {
-              "type" : "JSON_LITERAL",
-              "value" : "1"
             },
             "type" : {
               "type" : "JSON_LITERAL",
@@ -840,6 +854,10 @@
               "elementId" : "container_4",
               "elementLabel" : "Container 4",
               "propertyValues" : {
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
                 "ariaRegionName" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -851,10 +869,6 @@
                 "includeAriaHeading" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
-                },
-                "ariaRegionHeadingLevel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "1"
                 },
                 "type" : {
                   "type" : "JSON_LITERAL",
@@ -876,13 +890,9 @@
                   "elementId" : "image_1",
                   "elementLabel" : "Image 1",
                   "propertyValues" : {
-                    "alt" : {
-                      "type" : "TRANSLATION_LITERAL",
-                      "value" : {
-                        "code" : null,
-                        "message" : "",
-                        "comment" : ""
-                      }
+                    "fit" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "fill"
                     },
                     "src" : {
                       "type" : "DATA_OUTPUT_BINDING",
@@ -890,9 +900,13 @@
                         "address" : [ "look_up_recipe", "result", "image", "displayValue" ]
                       }
                     },
-                    "fit" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "fill"
+                    "alt" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "",
+                        "comment" : ""
+                      }
                     },
                     "position" : {
                       "type" : "JSON_LITERAL",
@@ -915,7 +929,9 @@
                     "value" : null
                   },
                   "isHero" : false,
+                  "extensionPoints" : [ ],
                   "isNonDestructive" : false,
+                  "items" : [ ],
                   "styles" : { }
                 } ],
                 "layout" : {
@@ -937,7 +953,9 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
+              "items" : [ ],
               "styles" : {
                 "width" : "100%"
               }
@@ -945,6 +963,10 @@
               "elementId" : "container_5",
               "elementLabel" : "Container 5",
               "propertyValues" : {
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
                 "ariaRegionName" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -956,10 +978,6 @@
                 "includeAriaHeading" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
-                },
-                "ariaRegionHeadingLevel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "1"
                 },
                 "type" : {
                   "type" : "JSON_LITERAL",
@@ -981,6 +999,10 @@
                   "elementId" : "stylized_text_2",
                   "elementLabel" : "Stylized text 2",
                   "propertyValues" : {
+                    "css" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "* { }"
+                    },
                     "text" : {
                       "type" : "TRANSLATION_LITERAL",
                       "value" : {
@@ -992,10 +1014,6 @@
                     "tag" : {
                       "type" : "JSON_LITERAL",
                       "value" : "h2"
-                    },
-                    "css" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "* { }"
                     }
                   },
                   "eventMappings" : [ ],
@@ -1010,7 +1028,9 @@
                     "value" : null
                   },
                   "isHero" : false,
+                  "extensionPoints" : [ ],
                   "isNonDestructive" : false,
+                  "items" : [ ],
                   "styles" : { }
                 }, {
                   "elementId" : "rich_text_1",
@@ -1035,7 +1055,9 @@
                     "value" : null
                   },
                   "isHero" : false,
+                  "extensionPoints" : [ ],
                   "isNonDestructive" : false,
+                  "items" : [ ],
                   "styles" : { }
                 } ],
                 "layout" : {
@@ -1057,7 +1079,9 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
+              "items" : [ ],
               "styles" : {
                 "width" : "100%"
               }
@@ -1065,6 +1089,10 @@
               "elementId" : "container_6",
               "elementLabel" : "Container 6",
               "propertyValues" : {
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
                 "ariaRegionName" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -1076,10 +1104,6 @@
                 "includeAriaHeading" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
-                },
-                "ariaRegionHeadingLevel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "1"
                 },
                 "type" : {
                   "type" : "JSON_LITERAL",
@@ -1101,6 +1125,10 @@
                   "elementId" : "stylized_text_3",
                   "elementLabel" : "Stylized text 3",
                   "propertyValues" : {
+                    "css" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "* { }"
+                    },
                     "text" : {
                       "type" : "TRANSLATION_LITERAL",
                       "value" : {
@@ -1112,10 +1140,6 @@
                     "tag" : {
                       "type" : "JSON_LITERAL",
                       "value" : "h2"
-                    },
-                    "css" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "* { }"
                     }
                   },
                   "eventMappings" : [ ],
@@ -1130,7 +1154,9 @@
                     "value" : null
                   },
                   "isHero" : false,
+                  "extensionPoints" : [ ],
                   "isNonDestructive" : false,
+                  "items" : [ ],
                   "styles" : { }
                 }, {
                   "elementId" : "rich_text_2",
@@ -1155,7 +1181,9 @@
                     "value" : null
                   },
                   "isHero" : false,
+                  "extensionPoints" : [ ],
                   "isNonDestructive" : false,
+                  "items" : [ ],
                   "styles" : { }
                 } ],
                 "layout" : {
@@ -1177,7 +1205,9 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
+              "items" : [ ],
               "styles" : {
                 "width" : "100%"
               }
@@ -1201,7 +1231,9 @@
             "value" : null
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
+          "items" : [ ],
           "styles" : {
             "width" : "100%"
           }
@@ -1209,6 +1241,10 @@
           "elementId" : "container_7",
           "elementLabel" : "Container 7",
           "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
@@ -1220,10 +1256,6 @@
             "includeAriaHeading" : {
               "type" : "JSON_LITERAL",
               "value" : false
-            },
-            "ariaRegionHeadingLevel" : {
-              "type" : "JSON_LITERAL",
-              "value" : "1"
             },
             "type" : {
               "type" : "JSON_LITERAL",
@@ -1245,6 +1277,10 @@
               "elementId" : "stylized_text_4",
               "elementLabel" : "Stylized text 4",
               "propertyValues" : {
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                },
                 "text" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -1256,10 +1292,6 @@
                 "tag" : {
                   "type" : "JSON_LITERAL",
                   "value" : "h2"
-                },
-                "css" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "* { }"
                 }
               },
               "eventMappings" : [ ],
@@ -1274,7 +1306,9 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
+              "items" : [ ],
               "styles" : { }
             }, {
               "elementId" : "rich_text_3",
@@ -1299,7 +1333,9 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
+              "items" : [ ],
               "styles" : { }
             } ],
             "layout" : {
@@ -1321,7 +1357,9 @@
             "value" : null
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
+          "items" : [ ],
           "styles" : {
             "width" : "100%"
           }
@@ -1345,7 +1383,9 @@
         "value" : null
       },
       "isHero" : false,
+      "extensionPoints" : [ ],
       "isNonDestructive" : false,
+      "items" : [ ],
       "styles" : {
         "width" : "100%",
         "max-width" : "80rem"
@@ -1370,7 +1410,9 @@
     "value" : null
   },
   "isHero" : false,
+  "extensionPoints" : [ ],
   "isNonDestructive" : false,
+  "items" : [ ],
   "styles" : {
     "width" : "100%",
     "background" : "rgb(var(--now-color--neutral-2))"
@@ -1382,6 +1424,7 @@
     "id" : "9664d48053461010cbc2ddeeff7b128e",
     "type" : "COMPOSITE"
   },
+  "dependencies" : { },
   "elementId" : "look_up_recipe",
   "elementLabel" : "Look Up Recipe",
   "eventMappings" : [ ],
@@ -1416,13 +1459,16 @@
     "id" : "9b4b978353211010cbc2ddeeff7b1245",
     "type" : "GRAPHQL"
   },
+  "dependencies" : { },
   "elementId" : "update_recipe",
   "elementLabel" : "Update Recipe",
   "eventMappings" : [ ],
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
+        <description/>
         <dispatched_events>ce0fa1cd51e0e1107f44b2f8a93d76e9</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -1443,6 +1489,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Recipe</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "recipeId",
   "label" : "recipeId",
@@ -1490,13 +1537,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-19 23:24:20</sys_created_on>
         <sys_id>fc5e55b051a0a1107f44b2f8a93d76f5</sys_id>
-        <sys_mod_count>37</sys_mod_count>
         <sys_name>Recipe</sys_name>
         <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
         <sys_update_name>sys_ux_macroponent_fc5e55b051a0a1107f44b2f8a93d76f5</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-20 21:26:16</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc5e55b051a0a1107f44b2f8a93d76f5"/>
 </record_update>
