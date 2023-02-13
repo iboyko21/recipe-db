@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="New Recipe">4d71937d1b3ec5500ef897941a4bcbcc</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-12 14:20:14</sys_created_on>
+        <sys_id>c1715b7d1b3ec5500ef897941a4bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New Recipe</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_c1715b7d1b3ec5500ef897941a4bcbeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-12 14:20:14</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>b880d41fdb7d685007072f17d496195d</instance_id>
+        <instance_name>dev105866</instance_name>
+        <name>sc_cat_item_catalog_c1715b7d1b3ec5500ef897941a4bcbeb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="New Recipe">4d71937d1b3ec5500ef897941a4bcbcc</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-12 14:20:14</sys_created_on><sys_id>c1715b7d1b3ec5500ef897941a4bcbeb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.New Recipe</sys_name><sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_update_name>sc_cat_item_catalog_c1715b7d1b3ec5500ef897941a4bcbeb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-12 14:20:14</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1940797861</payload_hash>
+        <record_name>Service Catalog.New Recipe</record_name>
+        <reverted_from/>
+        <source>7db428db97742110036cbbc3f153affe</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-08 23:53:09</sys_created_on>
+        <sys_id>35b468db97742110036cbbc3f153af99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186337286e90000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-08 23:53:09</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>39b468dbfe742110a332605262ec1d98</update_guid>
+        <update_guid_history>39b468dbfe742110a332605262ec1d98:-1940797861,c394eac924242110fe68938ac9726283:-1908896951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.New Recipe">39b468db97742110036cbbc3f153af9c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-08 23:53:09</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>8846e95725784c30903249449a0d9681</sys_id>
+        <sys_metadata>c1715b7d1b3ec5500ef897941a4bcbeb</sys_metadata>
+        <sys_name>Service Catalog.New Recipe</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent display_value="New Recipe">4d71937d1b3ec5500ef897941a4bcbcc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete display_value="">a66d6e4e3b0b4caa91e7d7398f78e204</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_c1715b7d1b3ec5500ef897941a4bcbeb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_c1715b7d1b3ec5500ef897941a4bcbeb">35b468db97742110036cbbc3f153af99</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

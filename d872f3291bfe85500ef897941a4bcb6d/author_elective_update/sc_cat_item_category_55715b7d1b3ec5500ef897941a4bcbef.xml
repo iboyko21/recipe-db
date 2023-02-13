@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="New Recipe">4d71937d1b3ec5500ef897941a4bcbcc</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-12 14:20:14</sys_created_on>
+        <sys_id>55715b7d1b3ec5500ef897941a4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.New Recipe</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sc_cat_item_category_55715b7d1b3ec5500ef897941a4bcbef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-12 14:20:14</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>b880d41fdb7d685007072f17d496195d</instance_id>
+        <instance_name>dev105866</instance_name>
+        <name>sc_cat_item_category_55715b7d1b3ec5500ef897941a4bcbef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="New Recipe">4d71937d1b3ec5500ef897941a4bcbcc</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-12 14:20:14</sys_created_on><sys_id>55715b7d1b3ec5500ef897941a4bcbef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.New Recipe</sys_name><sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_update_name>sc_cat_item_category_55715b7d1b3ec5500ef897941a4bcbef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-12 14:20:14</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1797647953</payload_hash>
+        <record_name>Can We Help You?.New Recipe</record_name>
+        <reverted_from/>
+        <source>7db428db97742110036cbbc3f153affe</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-08 23:53:09</sys_created_on>
+        <sys_id>b9b468db97742110036cbbc3f153afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1863372875b0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-08 23:53:09</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>fdb468db8e74211075490fea28d1e5a0</update_guid>
+        <update_guid_history>fdb468db8e74211075490fea28d1e5a0:1797647953,c794eac9cc242110444fdecee7daca87:1633473545</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.New Recipe">b5b468db97742110036cbbc3f153afa5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-08 23:53:09</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>669cd7e820cf4c569f689b293b4cfde4</sys_id>
+        <sys_metadata>55715b7d1b3ec5500ef897941a4bcbef</sys_metadata>
+        <sys_name>Can We Help You?.New Recipe</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete display_value="">a66d6e4e3b0b4caa91e7d7398f78e204</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_55715b7d1b3ec5500ef897941a4bcbef</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_55715b7d1b3ec5500ef897941a4bcbef">b9b468db97742110036cbbc3f153afa1</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
